@@ -1,0 +1,28 @@
+/* 
+Odd numbered elements: light red/ pink background, Verdana font with DejaVu Sans and sans-serif as fallback
+Second element: blue text, font size 36px
+Third element: font size 24px, INCLUDE ODD NUMBERED ELEMENTS
+fourth element: Light green background, font size 24px, bold
+*/
+
+
+
+p {
+    background-color: #ffb6c1;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second {
+    color:#0000ff;
+    font-size: 36px;
+}
+
+.third-element {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
