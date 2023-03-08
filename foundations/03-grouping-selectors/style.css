@@ -1,0 +1,20 @@
+/*
+First Element: Black background, white text
+Second Element: Yellow background
+Both Elements: Font size 28px, list of font containing Helvetic and Times New Roman, sans-serif as fallback
+*/
+
+.black-button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.yellow-button {
+    background-color: #ffff00;
+}
+
+.black-button
+.yellow-button {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
