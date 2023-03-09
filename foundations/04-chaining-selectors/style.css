@@ -1,0 +1,14 @@
+/*
+"avatar" and "proportioned" classes: 300px wide, auto height
+"avatar" and "distorted" classes: 200px wide, 400px height
+*/
+
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
