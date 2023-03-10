@@ -1,0 +1,24 @@
+/*
+Elements 'p' descendants of 'div':
+- Yellow background
+- Red text
+- Font size 20px
+- Center aligned
+*/
+
+.container
+.text {
+    background-color: #ffff00;
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*
+Note: I tried using a comma between .container and .text, but 
+this is wrong because all .text changes, not only the ones
+that have .container as parent.
+
+DO NOT USE A COMMA so that only the .text that are children of
+.container are styled.
+*/
