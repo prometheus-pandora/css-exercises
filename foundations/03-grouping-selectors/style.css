@@ -13,7 +13,7 @@ Both Elements: Font size 28px, list of font containing Helvetic and Times New Ro
     background-color: #ffff00;
 }
 
-.black-button
+.black-button,
 .yellow-button {
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
